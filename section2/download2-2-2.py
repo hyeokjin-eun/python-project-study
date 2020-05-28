@@ -13,7 +13,7 @@ saveFile1 = open(savePath1, 'wb')
 saveFile1.write(file1)
 saveFile1.close()
 
-with open(savePath2, 'wb') as saveFile2 :
+with open(savePath2, 'wb') as saveFile2:
     saveFile2.write(file2)
 
 print("다운로드 완료")
